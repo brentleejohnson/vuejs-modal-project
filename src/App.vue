@@ -1,6 +1,9 @@
 <template>
   <h1>{{ title }}</h1>
-  <Modal />
+  <Modal
+    header="Sign up for the Giveaway"
+    text="Grab yoru ninja swag for half price!"
+  />
 </template>
 
 <script>
@@ -25,6 +28,7 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 h1 {
   border-bottom: 1px solid #ddd;
   display: inline-block;
